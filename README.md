@@ -79,3 +79,12 @@ The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1
 - **Scikit-learn** – Model evaluation metrics
 - **Selenium** – Web scraping
 - **pmdarima** – Automatic ARIMA model selection and optimization
+
+## Author
+Hamza Charrad
+
+Aspiring Data Analyst | Machine Learning Enthusiast
+
+LinkedIn:
+[https://www.linkedin.com/in/hamza-charrad/]  
+
