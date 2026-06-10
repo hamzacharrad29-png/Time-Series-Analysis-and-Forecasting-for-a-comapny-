@@ -1,44 +1,81 @@
-##  Project Description
-# Time-Series-Analysis-and-Forecasting-for-a-comapny-
-This project aims to analyze and forecast the closing price time series of a company  **Eurocycles (ECYCL)** stock, listed on the Tunis Stock Exchange.
+# 📈 Time Series Analysis and Forecasting for Euro-Cycles (ECYCL)
 
+## 📌 Project Overview
 
-### Key Steps:
+This project analyzes and forecasts the closing stock price of **Euro-Cycles (ECYCL)**, a company listed on the **Tunis Stock Exchange**.
 
-1. **Data Collection** – Web scraping with Selenium from `ilboursa.com`
-2. **Exploratory Analysis** – Visualization, seasonal decomposition, stationarity tests
-3. **Modeling** – ARIMA(1,1,0) and SARIMA(5,1,0,5)
-4. **Evaluation** – Model comparison (RMSE, MAE, MAPE)
-5. **Forecasting** – 50 business day projection
+The objective is to study historical stock price behavior, evaluate time-series forecasting models, and generate future price predictions using statistical techniques.
 
-## 📊 Key Results
+---
 
-| Model                        | RMSE    | MAE     | MAPE   |
-|------------------------------|---------|---------|--------|
-| **ARIMA(1,1,0)**             | 0.2849  | 0.1690  | 1.11%  |
-| SARIMA(5,1,0,5)              | 0.3077  | 0.1967  | 1.30%  |
+## 🚀 Project Workflow
 
-👉 The **ARIMA(1,1,0)** model is selected as the best, with a mean absolute percentage error of only **1.11%**.
+### 1. Data Collection
+- Scraped historical stock price data from **ilboursa.com** using **Selenium**.
 
-## 📈 Key Visualizations
+### 2. Exploratory Data Analysis (EDA)
+- Price trend visualization
+- Seasonal decomposition
+- Stationarity testing (ADF test)
+- ACF and PACF analysis
 
-| Price Evolution and Decomposition |
-|--------------------------------|
-| ![Price Evolution and Decomposition ]([images/evolution_cours.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/price%20evolution%20and%20decomposition%20.png)) |
+### 3. Time Series Modeling
+Two forecasting models were developed and compared:
 
-| ACF/PACF | ARIMA Prediction |
-|----------|------------------|
-| ![]([images/acf_pacf.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/ACF%20PACF%20ARIMA%20.png)) | ![]([images/prediction_arima.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/Arima%20prediction%20.png)) |
+- **ARIMA(1,1,0)**
+- **SARIMA(5,1,0)(5,1,0)**
 
-| 50-Day Forecast |
-|-----------------|
-| ![]([images/comparaison_modeles.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/Prediction%20de%2050%20jours%20.png))
-## 🛠️ Technologies Used
+### 4. Model Evaluation
+Models were evaluated using:
+
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+- MAPE (Mean Absolute Percentage Error)
+
+### 5. Forecasting
+- Generated a **50-business-day forecast** using the best-performing model.
+
+---
+
+## 📊 Model Performance
+
+| Model | RMSE | MAE | MAPE |
+|--------|--------|--------|--------|
+| **ARIMA(1,1,0)** | **0.2849** | **0.1690** | **1.11%** |
+| SARIMA(5,1,0)(5,1,0) | 0.3077 | 0.1967 | 1.30% |
+
+### 🏆 Best Model
+
+The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1.11%**, making it the selected model for forecasting.
+
+---
+
+## 📈 Visualizations
+
+### Stock Price Evolution and Seasonal Decomposition
+
+![Price Evolution and Decomposition](images/price_evolution_and_decomposition.png)
+
+### ACF and PACF Analysis
+
+![ACF PACF](images/acf_pacf.png)
+
+### ARIMA Forecast vs Actual Values
+
+![ARIMA Prediction](images/arima_prediction.png)
+
+### 50-Day Forecast
+
+![50-Day Forecast](images/forecast_50_days.png)
+
+---
+
+## 🛠️ Technologies and Libraries
 
 - **Python**
-- **Pandas, NumPy** – Data manipulation and calculations
-- **Matplotlib, Seaborn** – Visualization
-- **Statsmodels** – ARIMA/SARIMA modeling
-- **Scikit-learn** – Evaluation metrics
+- **Pandas** & **NumPy** – Data manipulation and numerical computations
+- **Matplotlib** & **Seaborn** – Data visualization
+- **Statsmodels** – ARIMA and SARIMA modeling
+- **Scikit-learn** – Model evaluation metrics
 - **Selenium** – Web scraping
-- **PMDARIMA** – Automatic model optimization
+- **pmdarima** – Automatic ARIMA model selection and optimization
