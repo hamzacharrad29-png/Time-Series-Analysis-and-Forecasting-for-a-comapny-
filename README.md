@@ -44,13 +44,13 @@ Models were evaluated using:
 | **ARIMA(1,1,0)** | **0.2849** | **0.1690** | **1.11%** |
 | SARIMA(5,1,0)(5,1,0) | 0.3077 | 0.1967 | 1.30% |
 
-### 🏆 Best Model
+###  Best Model
 
 The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1.11%**, making it the selected model for forecasting.
 
 ---
 
-## 📈 Visualizations
+##  Visualizations
 
 ### Stock Price Evolution and Seasonal Decomposition
 
@@ -58,7 +58,7 @@ The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1
 
 ### ACF and PACF Analysis
 
-![ACF PACF]([images/acf_pacf.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/ACF%20PACF%20ARIMA%20.png))
+![ACF PACF]([[images/acf_pacf.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/ACF%20PACF%20ARIMA%20.png)
 
 ### ARIMA Forecast vs Actual Values
 
