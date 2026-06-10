@@ -54,21 +54,21 @@ The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1
 
 ### Stock Price Evolution and Seasonal Decomposition
 
-![Price Evolution and Decomposition](images/price_evolution_and_decomposition.png)
+![Price Evolution and Decomposition]([images/price_evolution_and_decomposition.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/price%20evolution%20and%20decomposition%20.png))
 
 ### ACF and PACF Analysis
 
-![ACF PACF](images/acf_pacf.png)
+![ACF PACF]([images/acf_pacf.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/ACF%20PACF%20ARIMA%20.png))
 
 ### ARIMA Forecast vs Actual Values
 
-![ARIMA Prediction](images/arima_prediction.png)
+![ARIMA Prediction]([images/arima_prediction.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/Arima%20prediction%20.png))
 
 ### 50-Day Forecast
 
-![50-Day Forecast](images/forecast_50_days.png)
+![50-Day Forecast]([images/forecast_50_days.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/Prediction%20de%2050%20jours%20.png))
 
----
+
 
 ## 🛠️ Technologies and Libraries
 
