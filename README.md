@@ -66,7 +66,7 @@ The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1
 
 ### 50-Day Forecast
 
-![50-Day Forecast]([images/forecast_50_days.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/Prediction%20de%2050%20jours%20.png))
+![50-Day Forecast](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/0bf40670e1a3472ea214413fecbbe949314de2ec/Prediction%20de%2050%20jours%20.png)
 
 
 
