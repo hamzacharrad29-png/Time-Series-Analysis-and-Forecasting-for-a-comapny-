@@ -62,7 +62,7 @@ The **ARIMA(1,1,0)** model achieved the best performance with a **MAPE of only 1
 
 ### ARIMA Forecast vs Actual Values
 
-![ARIMA Prediction]((https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/Arima%20prediction%20.png))
+![ARIMA Prediction](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/7bb67ae72cf56ae73f5e7f9c2cd0a6063bc51ab3/Arima%20prediction%20.png)
 
 ### 50-Day Forecast
 
