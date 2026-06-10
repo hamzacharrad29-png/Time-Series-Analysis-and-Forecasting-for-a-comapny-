@@ -24,7 +24,7 @@ This project aims to analyze and forecast the closing price time series of a com
 
 | Price Evolution and Decomposition |
 |--------------------------------|
-| ![]([images/evolution_cours.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/price%20evolution%20and%20decomposition%20.png)) |
+| ![Price Evolution and Decomposition ]([images/evolution_cours.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/price%20evolution%20and%20decomposition%20.png)) |
 
 | ACF/PACF | ARIMA Prediction |
 |----------|------------------|
