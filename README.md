@@ -22,18 +22,17 @@ This project aims to analyze and forecast the closing price time series of a com
 
 ## 📈 Key Visualizations
 
-| Price Evolution | Decomposition |
-|-----------------|---------------|
-| ![](images/evolution_cours.png) | ![](images/decomposition.png) |
+| Price Evolution and Decomposition |
+|--------------------------------|
+| ![]([images/evolution_cours.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/price%20evolution%20and%20decomposition%20.png)) |
 
 | ACF/PACF | ARIMA Prediction |
 |----------|------------------|
-| ![](images/acf_pacf.png) | ![](images/prediction_arima.png) |
+| ![]([images/acf_pacf.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/ACF%20PACF%20ARIMA%20.png)) | ![]([images/prediction_arima.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/Arima%20prediction%20.png)) |
 
-| Model Comparison | 50-Day Forecast |
-|------------------|-----------------|
-| ![](images/comparaison_modeles.png) | ![](images/forecast_50.png) |
-
+| 50-Day Forecast |
+|-----------------|
+| ![]([images/comparaison_modeles.png](https://github.com/hamzacharrad29-png/Time-Series-Analysis-and-Forecasting-for-a-comapny-/blob/578a26c528d9a9df1240eaf316f7c5b175064d7f/Prediction%20de%2050%20jours%20.png))
 ## 🛠️ Technologies Used
 
 - **Python**
